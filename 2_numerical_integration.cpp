@@ -10,9 +10,11 @@
  Trapezoidal rules to evaluate definite integrals. The integrand is
  evaluated separately in a function called "f". So to change the function
  you wish to integrate, simply involves editing one line.*/
-/* a and b are lower and upper limits of integration, in turn
- no_steps = no. of steps we discretize the range of integration into
+
+/* a and b are LU limits of integration, 
+ in turn no_steps = no. of steps we discretize the range of integration into
  h = (b-a)/no_steps i.e. step length */
+
 #include <iostream>
 #include <cmath>
 #include "data.h"
